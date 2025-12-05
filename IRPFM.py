@@ -67,7 +67,7 @@ col1, col2 = st.columns(2)
 
 if valor > 0:
     if valor > 50000:
-        if tipo == 'Empresa':
+        if tipo == 'Sócio':
 
             with col1:
                 st.metric('Sócio recebe', f'R$ {valor * 0.9:,.2f}')
