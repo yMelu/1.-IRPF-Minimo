@@ -2,7 +2,7 @@ import streamlit as st
 
 st.sidebar.image("logo_matriz_red.png", width=220)
 
-tipo = st.sidebar.selectbox('Quem pagará o imposto?', ['Empresa', 'Sócio'])
+tipo = st.sidebar.selectbox('Quem pagará o imposto?', ['Sócio','Empresa'])
 
 # ----- DISTRIBUIÇÕES DINÂMICAS -----
 st.sidebar.write("### Distribuições do mês")
